@@ -45,7 +45,7 @@ if(isset($_POST['send_btn']))
 
 		
 		<span> From: <?php echo $_SESSION['sender'] ?></span>
-		<p style="width:30%; word-break: break-all; margin:auto; margin-top: 1em; margin-bottom: 3em; border-style: ridge"> <?php echo $_SESSION['msg'] ?></p>
+<textarea style="display: block; margin:auto; margin-bottom:4em; margin-top:1em; width:30%; min-height:100px;" placeholder="Enter the message" name="message"><?php echo $_SESSION['msg'] ?></textarea>
 		
 	
 	<span> <a href="msg_center.php">Back to Message Center</a></span>
