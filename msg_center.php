@@ -23,7 +23,7 @@ session_start();
 	
 
 	
-	<table align="center" width=30% border=1px solid border-collapse="collapse">
+	<table align="center" width=30% border=1px solid border-collapse="collapse" style="margin-bottom:3em">
 		<tr>
 			<th> Message</th>
 			
@@ -51,7 +51,7 @@ $result = mysqli_query($dbc, $sql);
 </div>
 
 <p>
-	<h3 > <a href="send_msg.php">Send a message</a></h3>
+	<h3 style="margin-bottom:2em"> <a href="send_msg.php">Send a message</a></h3>
 </p>
 <p>
 	<form action="login.php" method="POST">
