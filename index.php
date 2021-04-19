@@ -16,7 +16,7 @@
 		<a href="login.php">Login</a> or
 		<a href="register.php">Register</a>
 		
-		<a style="margin-top:4em; display:block;" href='download.php'> Download the database</a>
+		<a style="margin-top:4em; display:block;" href='dbdump.php'> Download the database</a>
 
 
 </body>
